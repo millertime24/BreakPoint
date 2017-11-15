@@ -15,8 +15,8 @@
 		CE139C301FBCCC4B00854648 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE139C2F1FBCCC4B00854648 /* ShadowView.swift */; };
 		CE139C321FBCCEB400854648 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE139C311FBCCEB400854648 /* AuthService.swift */; };
 		CE57ADDA1FBBA772009A7813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57ADD91FBBA772009A7813 /* AppDelegate.swift */; };
-		CE57ADDC1FBBA772009A7813 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57ADDB1FBBA772009A7813 /* FirstViewController.swift */; };
-		CE57ADDE1FBBA772009A7813 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57ADDD1FBBA772009A7813 /* SecondViewController.swift */; };
+		CE57ADDC1FBBA772009A7813 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57ADDB1FBBA772009A7813 /* FeedVC.swift */; };
+		CE57ADDE1FBBA772009A7813 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57ADDD1FBBA772009A7813 /* GroupsVC.swift */; };
 		CE57ADE11FBBA772009A7813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE57ADDF1FBBA772009A7813 /* Main.storyboard */; };
 		CE57ADE31FBBA772009A7813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE57ADE21FBBA772009A7813 /* Assets.xcassets */; };
 		CE57ADE61FBBA772009A7813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE57ADE41FBBA772009A7813 /* LaunchScreen.storyboard */; };
@@ -35,8 +35,8 @@
 		CE139C311FBCCEB400854648 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		CE57ADD61FBBA772009A7813 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE57ADD91FBBA772009A7813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE57ADDB1FBBA772009A7813 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		CE57ADDD1FBBA772009A7813 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CE57ADDB1FBBA772009A7813 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		CE57ADDD1FBBA772009A7813 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		CE57ADE01FBBA772009A7813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE57ADE21FBBA772009A7813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE57ADE51FBBA772009A7813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,8 +112,8 @@
 		CE57ADED1FBBA7D3009A7813 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				CE57ADDB1FBBA772009A7813 /* FirstViewController.swift */,
-				CE57ADDD1FBBA772009A7813 /* SecondViewController.swift */,
+				CE57ADDB1FBBA772009A7813 /* FeedVC.swift */,
+				CE57ADDD1FBBA772009A7813 /* GroupsVC.swift */,
 				CE139C291FBCB74400854648 /* AuthVC.swift */,
 				CE139C2B1FBCB78800854648 /* LoginVC.swift */,
 			);
@@ -285,12 +285,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE139C2A1FBCB74400854648 /* AuthVC.swift in Sources */,
-				CE57ADDE1FBBA772009A7813 /* SecondViewController.swift in Sources */,
+				CE57ADDE1FBBA772009A7813 /* GroupsVC.swift in Sources */,
 				CE139C2C1FBCB78800854648 /* LoginVC.swift in Sources */,
 				CE139C321FBCCEB400854648 /* AuthService.swift in Sources */,
 				CE57ADDA1FBBA772009A7813 /* AppDelegate.swift in Sources */,
 				CE139C301FBCCC4B00854648 /* ShadowView.swift in Sources */,
-				CE57ADDC1FBBA772009A7813 /* FirstViewController.swift in Sources */,
+				CE57ADDC1FBBA772009A7813 /* FeedVC.swift in Sources */,
 				CE139C2E1FBCB7E800854648 /* InsetTextField.swift in Sources */,
 				CE139C281FBC9EE000854648 /* DataService.swift in Sources */,
 			);
