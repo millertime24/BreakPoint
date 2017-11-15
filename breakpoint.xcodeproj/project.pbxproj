@@ -15,6 +15,7 @@
 		CE139C301FBCCC4B00854648 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE139C2F1FBCCC4B00854648 /* ShadowView.swift */; };
 		CE139C321FBCCEB400854648 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE139C311FBCCEB400854648 /* AuthService.swift */; };
 		CE139C361FBCEDC200854648 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE139C351FBCEDC200854648 /* MeVC.swift */; };
+		CE139C381FBD063E00854648 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE139C371FBD063E00854648 /* CreatePostVC.swift */; };
 		CE57ADDA1FBBA772009A7813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57ADD91FBBA772009A7813 /* AppDelegate.swift */; };
 		CE57ADDC1FBBA772009A7813 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57ADDB1FBBA772009A7813 /* FeedVC.swift */; };
 		CE57ADDE1FBBA772009A7813 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57ADDD1FBBA772009A7813 /* GroupsVC.swift */; };
@@ -35,6 +36,7 @@
 		CE139C2F1FBCCC4B00854648 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		CE139C311FBCCEB400854648 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		CE139C351FBCEDC200854648 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		CE139C371FBD063E00854648 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		CE57ADD61FBBA772009A7813 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE57ADD91FBBA772009A7813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE57ADDB1FBBA772009A7813 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				CE139C291FBCB74400854648 /* AuthVC.swift */,
 				CE139C2B1FBCB78800854648 /* LoginVC.swift */,
 				CE139C351FBCEDC200854648 /* MeVC.swift */,
+				CE139C371FBD063E00854648 /* CreatePostVC.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				CE139C321FBCCEB400854648 /* AuthService.swift in Sources */,
 				CE57ADDA1FBBA772009A7813 /* AppDelegate.swift in Sources */,
 				CE139C301FBCCC4B00854648 /* ShadowView.swift in Sources */,
+				CE139C381FBD063E00854648 /* CreatePostVC.swift in Sources */,
 				CE57ADDC1FBBA772009A7813 /* FeedVC.swift in Sources */,
 				CE139C2E1FBCB7E800854648 /* InsetTextField.swift in Sources */,
 				CE139C281FBC9EE000854648 /* DataService.swift in Sources */,
