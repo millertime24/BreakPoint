@@ -16,9 +16,10 @@ class CreatePostVC: UIViewController {
     @IBOutlet weak var emailLbl: UILabel!
     
     @IBOutlet weak var textView: UITextView!
-    
-    
     @IBOutlet weak var sendBtn: UIButton!
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
