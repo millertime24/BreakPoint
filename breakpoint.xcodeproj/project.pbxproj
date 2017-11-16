@@ -26,6 +26,7 @@
 		CEE9EB021FBE0BDE001855E1 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9EB011FBE0BDE001855E1 /* UIViewExt.swift */; };
 		CEE9EB041FBE1841001855E1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9EB031FBE1841001855E1 /* FeedCell.swift */; };
 		CEE9EB061FBE2DC0001855E1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9EB051FBE2DC0001855E1 /* Message.swift */; };
+		CEE9EB081FBE58B9001855E1 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9EB071FBE58B9001855E1 /* CreateGroupsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		CEE9EB011FBE0BDE001855E1 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		CEE9EB031FBE1841001855E1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		CEE9EB051FBE2DC0001855E1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		CEE9EB071FBE58B9001855E1 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				CE139C2B1FBCB78800854648 /* LoginVC.swift */,
 				CE139C351FBCEDC200854648 /* MeVC.swift */,
 				CE139C371FBD063E00854648 /* CreatePostVC.swift */,
+				CEE9EB071FBE58B9001855E1 /* CreateGroupsVC.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				CE57ADDE1FBBA772009A7813 /* GroupsVC.swift in Sources */,
 				CE139C2C1FBCB78800854648 /* LoginVC.swift in Sources */,
 				CE139C321FBCCEB400854648 /* AuthService.swift in Sources */,
+				CEE9EB081FBE58B9001855E1 /* CreateGroupsVC.swift in Sources */,
 				CE57ADDA1FBBA772009A7813 /* AppDelegate.swift in Sources */,
 				CE139C301FBCCC4B00854648 /* ShadowView.swift in Sources */,
 				CE139C381FBD063E00854648 /* CreatePostVC.swift in Sources */,
