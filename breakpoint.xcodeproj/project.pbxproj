@@ -25,6 +25,7 @@
 		CE57ADF31FBBB10B009A7813 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE57ADF21FBBB10B009A7813 /* GoogleService-Info.plist */; };
 		CEE9EB021FBE0BDE001855E1 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9EB011FBE0BDE001855E1 /* UIViewExt.swift */; };
 		CEE9EB041FBE1841001855E1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9EB031FBE1841001855E1 /* FeedCell.swift */; };
+		CEE9EB061FBE2DC0001855E1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9EB051FBE2DC0001855E1 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		CE57ADF21FBBB10B009A7813 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CEE9EB011FBE0BDE001855E1 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		CEE9EB031FBE1841001855E1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		CEE9EB051FBE2DC0001855E1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		CE57ADEF1FBBA7F1009A7813 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				CEE9EB051FBE2DC0001855E1 /* Message.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				CE57ADDC1FBBA772009A7813 /* FeedVC.swift in Sources */,
 				CE139C2E1FBCB7E800854648 /* InsetTextField.swift in Sources */,
 				CE139C281FBC9EE000854648 /* DataService.swift in Sources */,
+				CEE9EB061FBE2DC0001855E1 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
