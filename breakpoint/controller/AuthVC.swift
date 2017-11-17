@@ -16,28 +16,21 @@ class AuthVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         if Auth.auth().currentUser != nil {
             dismiss(animated: true, completion: nil)
         }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
-    @IBAction func signInWithEmailBtnPressed(_ sender: Any) {
+    @IBAction func signInWithEmailBtnWasPressed(_ sender: Any) {
         let loginVC = storyboard?.instantiateViewController(withIdentifier: "LoginVC")
         present(loginVC!, animated: true, completion: nil)
-    }
-    
-    @IBAction func googleSignInBtnWasPressed(_ sender: Any) {
     }
     
     @IBAction func facebookSignInBtnWasPressed(_ sender: Any) {
     }
     
+    @IBAction func googleSignInBtnWasPressed(_ sender: Any) {
+    }
 }
